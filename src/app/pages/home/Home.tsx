@@ -1,5 +1,5 @@
 import { Hand } from "lucide-react";
-import { motion, spring, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 export const Home = () => {
 
