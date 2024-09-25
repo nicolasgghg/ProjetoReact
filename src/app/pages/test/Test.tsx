@@ -19,7 +19,7 @@ export const Test = () => {
 
     return (
         <div className="flex justify-center items-center flex-wrap bg-blue-300 min-h-screen m-auto">
-            <h1 className="my-3">Home Page!</h1>
+            <h1 className="my-3">Test Page!</h1>
             <div className="text-center flex-wrap div-icons w-full flex justify-center items-center">
                 <p className="w-full">Testing Icons</p>
                 <Hand size={50} />
