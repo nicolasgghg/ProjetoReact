@@ -1,5 +1,4 @@
 import { createRoot } from 'react-dom/client';
-import App from './app/App.tsx';
 import "./index.css";
 import { Dashboard, Home, Test } from "./app/pages/main.ts";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
