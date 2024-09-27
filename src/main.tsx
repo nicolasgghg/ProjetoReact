@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import "./index.css";
-import { Dashboard, Home, Test } from "./app/pages/main.ts";
+import { Dashboard, Home, Test, AuthForm } from "./app/pages/main.ts";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { App } from './App.tsx';
 
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
         ]
     },
     {
+        path: "/AuthForm",
+        element: <AuthForm />
+    },
+    {
         path: "/Test",
         element: <Test />
     }
@@ -29,5 +33,5 @@ const router = createBrowserRouter([
 
 createRoot(
     document.getElementById('root')!).render(
-        <RouterProvider  router={router}/>
+        <RouterProvider router={router} />
     );

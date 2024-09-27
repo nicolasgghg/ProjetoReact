@@ -8,6 +8,7 @@ interface INavBarPages {
 const pages: INavBarPages[] = [
     { title: "Home", path: "/" },
     { title: "Dashboard", path: "/DashBoard" },
+    { title: "AuthForm", path: "/AuthForm" },
     { title: "Random Tests", path: "/Test" }
 ]
 
